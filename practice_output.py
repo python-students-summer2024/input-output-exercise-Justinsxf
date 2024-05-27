@@ -10,6 +10,8 @@ def print_with_line_break():
     Prints out the text, 'Hello world!' with a line break at the end
     """
     # write your code here
+    print('Hello world!')
+
 
 
 def print_without_line_break():
@@ -17,6 +19,7 @@ def print_without_line_break():
     Prints out the text, 'Hello world!' without a line break at the end
     """
     # write your code here
+    print('Hello world!', end='')
 
 
 def print_with_separator_dash_and_with_line_break():
@@ -26,6 +29,12 @@ def print_with_separator_dash_and_with_line_break():
     "Twas", "brillig", "and", "the", "slithy", "toves"
     """
     # write your code here
+    print("Twas", end="-"), 
+    print("brillig", end="-")
+    print("and", end="-")
+    print("the", end="-")
+    print("slithy", end="-")
+    print("toves")
     # you must supply each word as a separate argument to the print() function
 
 
@@ -36,4 +45,11 @@ def print_with_separator_dash_and_without_line_break():
     "Twas", "brillig", "and", "the", "slithy", "toves"
     """
     # write your code here
+    print("Twas", end="-"), 
+    print("brillig", end="-")
+    print("and", end="-")
+    print("the", end="-")
+    print("slithy", end="-")
+    print("toves",end="")
     # you must supply each word as a separate argument to the print() function
+
